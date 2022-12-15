@@ -1,3 +1,3 @@
 # Counter Application
 
-This is my first mini project in java, you can count up, or count down, and it will keep track and display the active count.
+This is a basic Java application that will keep track of count based on user input.
