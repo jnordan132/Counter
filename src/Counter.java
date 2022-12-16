@@ -12,7 +12,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 // GUI class
-public class GUI implements ActionListener {
+public class Counter implements ActionListener {
 
     // private varibles
     private int count = 0;
@@ -21,7 +21,7 @@ public class GUI implements ActionListener {
     private JLabel label;
 
     // public GUI class
-    public GUI() {
+    public Counter() {
         // JFrame object
         frame = new JFrame();
         // JPanel object
@@ -52,7 +52,7 @@ public class GUI implements ActionListener {
 
     // main method that will create new GUI object
     public static void main(String[] args) throws Exception {
-        new GUI();
+        new Counter();
     };
 
     // method that will increment or decrement the counter based on button pressed
